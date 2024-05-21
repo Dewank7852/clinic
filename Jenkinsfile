@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-               git branch: 'main', url:'https://github.com/jaiswaladi246/Petclinic.git'
+               git branch: 'main', url:'https://github.com/Dewank7852/clinic.git'
             }
         }
         stage('Code Compile') {
